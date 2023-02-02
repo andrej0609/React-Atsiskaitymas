@@ -1,0 +1,67 @@
+.loginRegister {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+  gap: 15px;
+}
+
+.loginRegister a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.loginRegister a:hover {
+  color: #ff6c00;
+  border-radius: 5px;
+}
+
+#root>hr {
+  border: 0;
+  height: 4px;
+  width: 100%;
+  margin: 30px 0;
+  background-image: linear-gradient(to right, #BFE2FF 50%, #337AB7 50%, #337AB7 60%, #ff9100 60%, #ff9100 70%, #05b5e6 70%, #05b5e6 80%, #b448b8 80%, #b448b8 90%, #BFE2FF 90%, #BFE2FF 100%);
+}
+
+
+hr {
+  border: none;
+  margin: 30px 0;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='rgb(51, 122, 183)' stroke-width='1' class='squiggle' d='M0,3.5 c 5,0,5,-2,10,-2 s 5,2,10,2 c 5,0,5,-2,10,-2 s 5,2,10,2'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  padding-bottom: 4px;
+  background-size: auto 4px;
+}
+
+#root>div.loginRegister>a:nth-child(3) {
+  margin-right: 20px;
+}
+
+#root>div.loginRegister>div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+  gap: 15px;
+}
+
+#root>hr.line {
+  margin: 0;
+}
+
+#root>div.addPost>a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
