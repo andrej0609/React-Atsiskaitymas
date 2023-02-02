@@ -2,7 +2,6 @@ import UserInfo from '../User/UserInfo';
 import UserContext from "../../contexts/UserContext";
 import { useContext } from "react";
 import { Link, Outlet } from 'react-router-dom';
-import Footer from './Footer';
 import WebLogo from './WebLogo';
 
 const Header = () => {
@@ -22,7 +21,6 @@ const Header = () => {
       }
       <hr className='line' />
       <Outlet />
-      <Footer />
     </>
   );
 }
