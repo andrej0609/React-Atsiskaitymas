@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "level": "admin",
+      "email": "admin@admin.com",
+      "password": "admin",
+      "avatar": "https://i.pravatar.cc/150?img=55"
+    },
+    {
+      "id": 2,
+      "level": "user",
+      "email": "user@user.com",
+      "password": "user",
+      "avatar": "https://i.pravatar.cc/150?img=2"
+    },
+    {
+      "id": 3,
+      "level": "user",
+      "email": "user2@user.com",
+      "password": "user2",
+      "avatar": "https://i.pravatar.cc/150?img=66"
+    },
+    {
+      "email": "user3@user.com",
+      "password": "qwe123",
+      "passwordRepeat": "qwe123",
+      "avatar": "https://i.pravatar.cc/150?img=67",
+      "id": 1675323891417,
+      "level": "user"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "heading": "Digital Advertising Manager",
+      "content": "Your monthly salary will be between 1100 -3000 EUR (gross), depending on your level of experience"
+    },
+    {
+      "heading": "Vaikas su patirtimi",
+      "content": "Atlyginimas: 1650 – 1900 Eur bruto",
+      "id": 1674758168340,
+      "userId": 2
+    }
+  ]
+}
