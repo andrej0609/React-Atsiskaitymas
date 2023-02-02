@@ -1,7 +1,7 @@
 import UserInfo from '../User/UserInfo';
 import UserContext from "../../contexts/UserContext";
 import { useContext } from "react";
-import { Link, Outlet } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import WebLogo from './WebLogo';
 
 const Header = () => {
@@ -19,8 +19,19 @@ const Header = () => {
             <Link to='/register'>Register</Link>
           </div>
       }
-      <hr className='line' />
-      <Outlet />
+      {
+        loggedInUser ?
+          <div className="addPost">
+            <Link to='/newPost'>Add new post</Link>
+          </div>
+          :
+          <div className='info'>
+            <hr />
+            <p>Pls login or register to add new post, or to see your posts</p>
+          </div>
+
+
+      }
     </>
   );
 }
