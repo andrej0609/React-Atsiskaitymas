@@ -6,3 +6,10 @@ npm i
 json-server src/data.json --watch --port 5000
 
 npm start
+
+
+email: admin@admin.com
+password: admin
+
+email: user@user.com  
+password: user
