@@ -133,6 +133,7 @@
 .row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 30px;
   margin-left: 20px;
 }
@@ -196,3 +197,66 @@
 #root > footer > div > div.row > div:nth-child(1) > div > div > p:nth-child(2) > a:hover {
   color: #ff6c00;
 }
+
+
+
+@media screen and (max-width: 768px) {
+  .footer .footer-widget {
+    margin-bottom: 30px;
+  }
+
+  .footer .footer-widget h2 {
+    font-size: 18px;
+  }
+
+  .footer .footer-widget .social {
+    margin-top: 10px;
+  }
+
+  .footer .footer-widget .social a {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 14px;
+  }
+
+  .footer .footer-widget .social a:last-child {
+    margin-right: 0;
+  }
+
+  .footer .footer-widget .newsletter-form {
+    margin-top: 10px;
+  }
+
+  .footer .footer-widget .newsletter-form button {
+    font-size: 14px;
+  }
+
+  .footer-bottom {
+    padding: 10px 0;
+  }
+
+  .footer-bottom p {
+    font-size: 12px;
+  }
+
+  .footer .footer-widget .newsletter-form input {
+    font-size: 12px;
+  }
+
+  .footer .footer-widget ul li a {
+    font-size: 12px;
+  }
+
+  .footer .footer-widget .contact-info p {
+    font-size: 12px;
+  }
+
+  .footer .footer-widget .contact-info i {
+    font-size: 14px;
+  }
+  
+  
+  
+}
+  
