@@ -1,4 +1,4 @@
-json-server data.json --watch --port 5000
+json-server src/data.json --watch --port 5000
 
 npm i react-router-dom
 
