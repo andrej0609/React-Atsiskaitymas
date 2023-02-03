@@ -39,6 +39,7 @@ const Register = () => {
         <Link to='/login'>Login</Link>
         <Link to='/register'>Register</Link>
       </div>
+      <h1>Registracija</h1>
       <div className="FormRegister">
         <Formik
           initialValues={{ email: '', password: '', passwordRepeat: '', avatar: '' }}
