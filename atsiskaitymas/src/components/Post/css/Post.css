@@ -1,0 +1,98 @@
+.Post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 3px #ccc;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.Post img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.Post span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.Post button {
+  margin: 0 10px;
+  padding: 5px 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: #000;
+  cursor: pointer;
+  color: #fff;
+}
+
+.Post button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.Post hr {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.Post h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.Post p {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #000;
+}
+
+.like-counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+
+#root>div:nth-child(2)>p {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#root>div:nth-child(2)>hr {
+  border: 0;
+  height: 4px;
+  width: 100%;
+  margin: 30px 0;
+  background-image: linear-gradient(to right, #BFE2FF 50%, #337AB7 50%, #337AB7 60%, #ff9100 60%, #ff9100 70%, #05b5e6 70%, #05b5e6 80%, #b448b8 80%, #b448b8 90%, #BFE2FF 90%, #BFE2FF 100%);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 10px;
+  height: 20vw;
+  margin-top: 63px;
+}
