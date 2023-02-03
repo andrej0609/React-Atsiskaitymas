@@ -13,7 +13,7 @@ const Post = ({ data, postContent }) => {
           src={postOwner.avatar}
           alt="user avatar"
         />
-        <span>{postOwner.userName}</span>
+        <span>{postOwner.email}</span>
         <hr />
         <h1>{data.heading}</h1>
         <p>{data.content}</p>
